@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-магазин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1> Мини-магазин</h1>
+        
+        <!-- Товары -->
+        <div class="products">
+            <h2>Товары</h2>
+            <div id="productList"></div>
+        </div>
+
+        <!-- Корзина -->
+        <div class="cart">
+            <h2> Корзина (<span id="cartCount">0</span>)</h2>
+            <div id="cartList"></div>
+            <div class="cart-total">
+                <strong>Итого: <span id="cartTotal">0</span> ₽</strong>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
